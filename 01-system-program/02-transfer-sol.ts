@@ -12,7 +12,7 @@ async function main () {
   const url = Web3.clusterApiUrl('devnet');
   const connection = new Web3.Connection(url);
   
-  const publicKeyTo = new Web3.PublicKey('4B8kbdgbn7evMWnZ91ifX13ZQcbHAjPaiyrwK1eywcuE');
+  const publicKeyTo = new Web3.PublicKey('J1zjeRtRetZ2ExSChUG31YMHuQaxnFYrNkdLdTMgTUEZ');
    const instruction = Web3.SystemProgram.transfer({
     fromPubkey: userKeypair.publicKey,
     toPubkey: publicKeyTo,
